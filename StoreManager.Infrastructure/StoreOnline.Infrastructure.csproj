@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{849AB5A5-9125-4528-B2A1-0D69569D31ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StoreOnline.Infrastructure</RootNamespace>
+    <AssemblyName>StoreOnline.Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\EntityFramework\Repositories\EfAddressRepository.cs" />
+    <Compile Include="Data\EntityFramework\Repositories\EfContactRepository.cs" />
+    <Compile Include="Data\EntityFramework\Repositories\EfCountryRepository.cs" />
+    <Compile Include="Data\EntityFramework\Repositories\EfCountyRepository.cs" />
+    <Compile Include="Data\EntityFramework\Repositories\EfEmployeeRepository.cs" />
+    <Compile Include="Data\EntityFramework\Repositories\EfPhotoRepository.cs" />
+    <Compile Include="Data\EntityFramework\Repositories\EfUserRepository.cs" />
+    <Compile Include="Data\EntityFramework\StoreManagerContextFactory.cs" />
+    <Compile Include="Data\GenericRepository.cs" />
+    <Compile Include="Interfaces\IStoreManagerContextFactory.cs" />
+    <Compile Include="Data\EntityFramework\FurnituresContext.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\AddressMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\AddressTypeMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\ContactCreditCardMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\ContactMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\ContactTypeMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\CountryMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\CountyMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\CraftmanMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\CreditCardMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\CreditCardTypeMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\CurrencyMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\CurrencyRateMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\CustomerMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\EmployeeMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\MemberRoleMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\MemberUserMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\OrderStateMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\PhotoMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\ProductCategoryMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\ProductMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\ProductPhotoMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\ProductProductPhotoMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\ProductReviewMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\SalesOrderDetailMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\SalesOrderHeaderMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\SalesPersonMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\SalesPersonQuotaHistoryMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\ShipMethodMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\ShoppingBasketItemMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\SpecialOfferMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\SpecialOfferProductMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\SpecialOfferTypeMap.cs" />
+    <Compile Include="Data\EntityFramework\Mapping\vEmployeeMap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\NHibernate\" />
+    <Folder Include="Data\OpenAccess\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="fApp.config.old" />
+    <None Include="fpackages.config.old" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StoreManager.Core\StoreOnline.Core.csproj">
+      <Project>{4a337b60-d178-4dc3-8735-8f75d673cc26}</Project>
+      <Name>StoreOnline.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+C:\Home-VS12\StoreOnline\StoreManager.Infrastructure\obj\Debug\StoreOnline.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Home-VS12\StoreOnline\StoreManager.Infrastructure\bin\Debug\StoreOnline.Infrastructure.dll.config
+C:\Home-VS12\StoreOnline\StoreManager.Infrastructure\bin\Debug\StoreOnline.Infrastructure.dll
+C:\Home-VS12\StoreOnline\StoreManager.Infrastructure\bin\Debug\StoreOnline.Infrastructure.pdb
+C:\Home-VS12\StoreOnline\StoreManager.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Home-VS12\StoreOnline\StoreManager.Infrastructure\bin\Debug\StoreOnline.Core.dll
+C:\Home-VS12\StoreOnline\StoreManager.Infrastructure\bin\Debug\StoreOnline.Core.pdb
+C:\Home-VS12\StoreOnline\StoreManager.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Home-VS12\StoreOnline\StoreManager.Infrastructure\obj\Debug\StoreOnline.Infrastructure.dll
+C:\Home-VS12\StoreOnline\StoreManager.Infrastructure\obj\Debug\StoreOnline.Infrastructure.pdb

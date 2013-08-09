@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreOnline.Core", "StoreManager.Core\StoreOnline.Core.csproj", "{4A337B60-D178-4DC3-8735-8F75D673CC26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreOnline.Infrastructure", "StoreManager.Infrastructure\StoreOnline.Infrastructure.csproj", "{849AB5A5-9125-4528-B2A1-0D69569D31ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreOnline.Site", "StoreOnline.Site\StoreOnline.Site.csproj", "{5ACFE9E0-1E26-4740-97FD-20CEA294E9F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreOnline.Site.UnitTests", "StoreOnline.Site.UnitTests\StoreOnline.Site.UnitTests.csproj", "{93637330-0DE0-4C30-A9EC-2247CC360514}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1F1689DB-351A-4C84-B065-0C5762FBFA58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreOnline.Site.IntegrationTests", "StoreOnline.Site.IntegrationTests\StoreOnline.Site.IntegrationTests.csproj", "{80D71135-A129-4286-AB36-D1B79D6891BF}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A337B60-D178-4DC3-8735-8F75D673CC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A337B60-D178-4DC3-8735-8F75D673CC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A337B60-D178-4DC3-8735-8F75D673CC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A337B60-D178-4DC3-8735-8F75D673CC26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{849AB5A5-9125-4528-B2A1-0D69569D31ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849AB5A5-9125-4528-B2A1-0D69569D31ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849AB5A5-9125-4528-B2A1-0D69569D31ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849AB5A5-9125-4528-B2A1-0D69569D31ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ACFE9E0-1E26-4740-97FD-20CEA294E9F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACFE9E0-1E26-4740-97FD-20CEA294E9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACFE9E0-1E26-4740-97FD-20CEA294E9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACFE9E0-1E26-4740-97FD-20CEA294E9F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93637330-0DE0-4C30-A9EC-2247CC360514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93637330-0DE0-4C30-A9EC-2247CC360514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93637330-0DE0-4C30-A9EC-2247CC360514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93637330-0DE0-4C30-A9EC-2247CC360514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D71135-A129-4286-AB36-D1B79D6891BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D71135-A129-4286-AB36-D1B79D6891BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D71135-A129-4286-AB36-D1B79D6891BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D71135-A129-4286-AB36-D1B79D6891BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93637330-0DE0-4C30-A9EC-2247CC360514} = {1F1689DB-351A-4C84-B065-0C5762FBFA58}
+		{80D71135-A129-4286-AB36-D1B79D6891BF} = {1F1689DB-351A-4C84-B065-0C5762FBFA58}
+	EndGlobalSection
+EndGlobal

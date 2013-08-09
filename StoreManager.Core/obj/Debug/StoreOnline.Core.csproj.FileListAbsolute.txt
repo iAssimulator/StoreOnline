@@ -1,0 +1,5 @@
+C:\Home-VS12\StoreOnline\StoreManager.Core\bin\Debug\StoreOnline.Core.dll
+C:\Home-VS12\StoreOnline\StoreManager.Core\bin\Debug\StoreOnline.Core.pdb
+C:\Home-VS12\StoreOnline\StoreManager.Core\obj\Debug\StoreOnline.Core.csprojResolveAssemblyReference.cache
+C:\Home-VS12\StoreOnline\StoreManager.Core\obj\Debug\StoreOnline.Core.dll
+C:\Home-VS12\StoreOnline\StoreManager.Core\obj\Debug\StoreOnline.Core.pdb
